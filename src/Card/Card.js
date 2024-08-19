@@ -72,11 +72,11 @@ const Card = () => {
           <button className="btn" onClick={Start}>
             Start
           </button>
-          <button className="btn" onClick={Reset}>
-            Reset
-          </button>
           <button className="btn" onClick={Pause}>
             Pause
+          </button>
+          <button className="btn" onClick={Reset}>
+            Reset
           </button>
         </div>
       </div>
