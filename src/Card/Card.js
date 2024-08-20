@@ -12,7 +12,7 @@ const Card = () => {
       setTime((prevTime) => {
         let { hour, min, sec, ms } = prevTime;
 
-        ms += 2;
+        ms += 10;
         if (ms === 1000) {
           ms = 0;
           sec += 1;
