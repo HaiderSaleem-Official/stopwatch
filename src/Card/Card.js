@@ -28,7 +28,7 @@ const Card = () => {
 
         return { hour, min, sec, ms };
       });
-    }, 0);
+    }, 10);
   };
 
   const Reset = () => {
