@@ -8,65 +8,64 @@
   border-radius: 1.5em;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   width: fit-content;
+
+  .time-container {
+    display: flex;
+    align-items: center;
+    margin-top: -2.5em;
+
+    .time {
+      background-color: rgb(31, 18, 18);
+      padding: 0.01em 0.6em;
+      border-radius: 0.3em;
+      margin: 0 0.15em;
+      color: aliceblue;
+      font-size: 1.2em;
+      width: 1.5em;
+      text-align: center;
+    }
+
+    .separator {
+      color: rgb(254, 254, 254);
+      font-size: 1.2em;
+      font-weight: bold;
+      margin: 0 0.1em;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+    width: 100%;
+
+    .btn {
+      background-color: #727272;
+      color: white;
+      padding: 0.2em 0.8em;
+      margin: 0 0.5em;
+      border: 8px double black;
+      border-radius: 0.5em;
+      font-size: 0.8em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #b8b8b8;
+      }
+    }
+  }
 }
 
-.time-container {
-  display: flex;
-  align-items: center;
-  margin-top: -2.5em;
-}
-
-.time {
-  background-color: rgb(31, 18, 18);
-  padding: 0.01em 0.6em;
-  border-radius: 0.3em;
-  margin: 0 0.15em;
-  color: aliceblue;
-  font-size: 1.2em;
-  width: 1.5em;
-  text-align: center;
-}
-
-.separator {
-  color: black;
-  font-size: 1.2em;
-  font-weight: bold;
-  margin: 0 0.1em;
-  color: rgb(254, 254, 254);
-}
-
-.buttons {
-  display: flex;
-  justify-content: center;
-  margin-top: 0.5em;
-  width: 100%;
-}
-
-.btn {
-  background-color: #727272;
-  color: white;
-  padding: 0.2em 0.8em;
-  margin: 0 0.5em;
-  border: 8px double black;
-  border-radius: 0.5em;
-  font-size: 0.8em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #b8b8b8;
-}
 .heading {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 6rem;
   margin-top: -1.3em;
-  color: rgb(55, 46, 55);
   background-color: #727272;
   border-radius: 1em;
   padding: 0 0.5em;
   color: aliceblue;
-  text-decoration:line-through;
+  text-decoration: line-through;
   border: 8px double black;
   font-weight: lighter;
 }
